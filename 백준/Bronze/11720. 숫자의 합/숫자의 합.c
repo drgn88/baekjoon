@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < N; i++)
 	{
-		sum += (arr[i] % (16 * 3));
+		sum += (arr[i] % ('0'));
 	}
 
 	printf("%d", sum);
