@@ -24,7 +24,7 @@ int main(void)
 	if (S[num-1] == ' ') cnt--;
 	cnt++;
 
-	printf("%d\n", cnt);
+	printf("%d", cnt);
 
 	return 0;
 }
